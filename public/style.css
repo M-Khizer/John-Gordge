@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.right-side{
+    /* border: 1px solid; */
+    width: 40%;
+}
+.left-side{
+    margin-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 60%;
+    height: auto;
+}
+
+.left-side .head-name{
+    font-size: 3.5rem;
+}
+.left-side .head-text{
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.left-side .red{
+    color: rgb(255, 0, 0);
+}
+.left-side .heading{
+    padding-bottom: 1rem;
+    border-bottom: 2px solid;
+    margin-bottom: 5rem;
+    width: 95%;
+    /* text-align: center; */
+    /* border: 1px solid; */   
+}
+@media(max-width:800px){
+    .left-side .head-name{
+        font-size: 3.3rem;
+    }
+        
+}
+
+/* Experience */
+.left-side .experience{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5rem;
+}
+.left-side .exp-head{
+    color: red;
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    letter-spacing:-2px;
+
+}
+.left-side .exp-boxes{
+    display: flex;
+}
+.left-side .exp-box-head{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: .3rem;
+}
+
+.left-side .exp-box-date{
+    font-size: 1.1rem;
+    margin-bottom: .5rem;
+    font-weight: bold;
+
+}
+.left-side .exp-box-text{
+    line-height: 1.4rem;
+    width: 90%;
+    font-weight: 500;
+}
+@media(max-width:850px){
+    .left-side .exp-box-head{
+        font-size: 1.2rem;
+       
+    }
+    
+    .left-side .exp-box-date{
+        font-size: 1.1rem;
+       
+    }
+    
+}
+/* Education */
+.education{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5rem;
+}
+.edu-head{
+    color: red;
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    letter-spacing:-2px;
+   
+}
+.edu-info-head{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+.edu-info-text{
+    margin-bottom: 1.5rem;
+    line-height: 1.4rem;
+}
+
+
+/* Hobbies */
+.hobbies{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5rem;
+}
+.hob-head{
+    color: red;
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    letter-spacing:-2px;
+
+}
+.hob-boxes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/* .hob-box{
+    border: 1px solid;
+    border-radius: 20rem;
+    padding: 2rem;
+} */
+.hob-box{
+    text-align: center;
+}
+.hob-box div{
+    font-weight: 500;
+}
+
+/* Skills */
+.skills
+{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0rem;
+}
+.skills-head{
+    color: red;
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    letter-spacing:-2px;
+}
+.skills-boxes{
+    display: flex;
+    justify-content: space-between;
+}
+.skills-box-box{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid; */
+    margin-bottom: 0.5rem;
+}
+.skills-box{
+    /* border: 1px solid; */
+    /* padding-right:5rem; */
+    width: 48%;
+}
+.skills-box-box i{
+    margin-left: 5px;
+    font-size: 7px;
+}
+.skills-box-head{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom:1rem;
+}
+.skills-box-box-head{
+    font-size: 1rem;
+    font-weight: 500;
+}
+@media(max-width:813px){
+    .skills-box{
+        width: 48%;
+    }
+}
+
+/* right-side */
+.patterns{
+    /* border: 1px solid; */
+    text-align: end;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.patterns i{
+    font-size: 8rem;
+    text-align: end;
+    color:#bab0ae    ;
+    
+}
+/* about */
+.about{
+    background-color: red;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 3rem;
+    text-align: end;
+    padding-bottom: 5rem;
+    padding-left: 1rem;
+}
+.about-head{
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    letter-spacing:-2px; 
+    padding-top: 5rem;      
+}
+.about-text{
+    line-height: 1.5rem;
+    text-align: end;
+}
+
+/* Contact */
+.contact{
+    background-color: #2e3136;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: end;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+}
+.contact-head{
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    letter-spacing:-2px; 
+    padding-top: 2rem;
+}
+.contact-box{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+    align-items: center;
+}
+.contact-icon{
+    margin-left: 1rem;
+}
+.contact-icon i{
+    font-size: 2rem;
+}
+.contact-info-head{
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+
+/* my-skills */
+.my-skills{
+    background-color: #2e3136;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: end;
+    padding-right: 3rem;
+    padding-bottom: 5rem;
+    padding-left: 3rem;
+    
+}
+.my-skills-bar {
+    width: 50%; /* Full width */
+    background-color: white; /* Grey background */
+
+  }
+  .my-skills-box{
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+        margin-top: 1rem;    
+    }
+  .my-skill {
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+  }
+  .indesign {width: 90%; background-color: red;}
+  .wordpress {width: 60%; background-color: red;}
+  .aiccart {width: 40%; background-color: red;}
+  .msword {width: 70%; background-color: red;}
+  .coraldraw {width: 55%; background-color: red;}
+
+  .my-skills-heading{
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    letter-spacing:-2px; 
+    padding-top: 2rem;
+}
+
+@media(max-width:779px){
+    .container{
+        flex-direction: column;
+    }
+    
+    .left-side{
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+
+    .right-side{
+        width: 100%;
+    }
+    .patterns{
+        display: none;
+    }
+}
+
+@media(max-width:500px){
+    
+.left-side .head-name{
+    font-size: 3rem;
+}
+
+.left-side .head-text{
+    font-size: 1rem;
+}
+.left-side .heading{
+    width: 100%;
+    /* text-align: center; */
+    /* border: 1px solid;    */
+}
+
+.left-side .exp-boxes{
+    flex-direction: column;
+ }
+ .exp-box{
+     margin-top: 1rem;
+ }
+ .skills-boxes{
+     flex-direction: column;
+     /* border: 1px solid; */
+ }
+ .skills-box{
+     width: 95%;
+ }
+}
+
+@media(max-width:384px){
+    .left-side .head-name{
+        font-size: 2.5rem;
+    }
+ 
+}
